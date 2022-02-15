@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+        <!-- owl carousel 2-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div id = background class="filme-principal">
+            <div id = detalhes class="container">
+                <h3 class="titulo">Homem-Aranha: Sem Volta Para Casa</h3>
+                <p>O Multiverso está aberto!!!</p>
+                <h4 class="sinopse">Sinopse</h4>
+                <p class="descricao">Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.</p>
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <Button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        <a href="https://www.youtube.com/watch?v=CyiiEJRZjSU"
+                            onClick="window.open(this.href,'pagename','resizable,height=600,width=800'); return false;">ASSISTIR
+                            TRAILER</a>
+                    </Button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div id="carroselFilmes" class="owl-carousel owl-theme">
+            <div class="item">
+                <img id="512200" class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="181812" class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="447404" class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="299534" class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="122917" class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="297762" class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="454626" class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="791373" class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="370172" class="box-filme" src="img/mini9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img id="299536" class="box-filme" src="img/miniA.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/movies.js"></script>
+    <script src="js/key.js"></script>
+
+</body>
+
+</html>
