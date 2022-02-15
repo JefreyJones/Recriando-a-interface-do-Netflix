@@ -9,8 +9,6 @@ el.addEventListener('click', function (a) {
     buscarTrailer(filmeID);;
 });
 
-
-
 function buscarTrailer(filmeID) {
 
     let url_tmb_filme = 'https://api.themoviedb.org/3/movie/';
@@ -29,7 +27,6 @@ function buscarTrailer(filmeID) {
             console.log(error);
         });
 }
-
 
 function alteraDescricaoFilme(filmeID, url_tmb_filme, endereco) {
 
