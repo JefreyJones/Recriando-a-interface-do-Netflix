@@ -1,7 +1,6 @@
 
 let el = document.getElementById('carroselFilmes');
 el.addEventListener('click', function (a) {
-
     const filmeSelecionado = document.getElementById(a.target.id);
     const filmeID = filmeSelecionado.id;
     const caminhoImagem = filmeSelecionado.currentSrc;
