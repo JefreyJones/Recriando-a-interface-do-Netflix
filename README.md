@@ -15,3 +15,9 @@ https://www.themoviedb.org/documentation/api
 
 Link de documentação do AXIOS:
 https://axios-http.com/docs/intro
+
+
+
+Link do Deploy do site:
+
+https://jefreyjones.github.io/Recriando-a-interface-do-Netflix/
