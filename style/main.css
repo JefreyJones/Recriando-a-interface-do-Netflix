@@ -82,6 +82,10 @@ header nav a:hover{
     font-size: 18px;
 }
 
+.descricao{
+    width: 700px;
+}
+
 .botao{
     background-color: rgba(0, 0, 0, .50);
     color: white;

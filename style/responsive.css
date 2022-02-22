@@ -31,6 +31,8 @@
     }
 
     .descricao{
-        font-size:small
+        font-size:small;
+        width: 320px;
+        
     }
 }
